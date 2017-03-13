@@ -1,0 +1,60 @@
+*{margin:0;font-family: Arial;}
+.container{margin:0 auto; width:1024px; margin-top:10px; margin-bottom:10px;}
+.conteudo{width:100%; float:left; padding-top:10px; }
+.barra-topo{width:100%; height:40px; background-color:#555;}
+.barra-topo a{text-decoration:none; color:#fff;}
+#bt-centro{margin:0 auto; width:1024px; color:#fff; padding-top:5px;}
+#bt-centro img{float:right; padding-left:10px;}
+.barra-topo .bt-painel {padding-top:5px; float:right;}
+#painel-topo{width:100%; background-color:#666}
+#painel-topo a{text-decoration:none; color:#fff;}
+#pt-main{margin:0 auto; width:1024px; height:150px; color:#fff;}
+#pt-esq{float:left; width:35%;}
+#pt-dir{float:left; width:65%;}
+#pt-carrinho{padding-top:25px; padding-left:150px; float:left;}
+.pt-dir-div{float:left}
+.pt-dir-div img{float:right; margin-top:20px; padding-left:10px;}
+.pt-dir-div span{float:left}
+.pt-dir-div1{float:left; padding-top:20px; width:100%;}
+
+.rodape{width:100%; height:200px; background-color:#888;  float:left; margin-top:10px;}
+.banner{width:100%;}
+.lista{margin-bottom:10px; margin-top:10px; float:left; width:100%; min-height:500px;}
+.item{width:238px; margin:6px 3px 0 3px; border:1px solid #ccc; padding-left:5px; padding-right:5px; float:left; border-radius:5px; }
+.item:hover{border-color:red;} 
+.item_busca{width:100%; height:130px; border:1px solid #ccc; border-radius:5px; padding-bottom:10px; padding-top:10px; margin-bottom:10px; }
+
+.menu{width:100%; font-size:18px; background-color:#fff; float:left;}
+.menu div{margin:0 auto; width:1024px;}
+.menu ul{margin:0; padding:0; list-style:none;}
+.menu ul li{position:relative; display:inline; float:left; width:140px; z-index:999;}
+.menu li ul{position:absolute; top:30px; display:none;} 
+.menu ul li a{display:block; text-decoration:none; background:#fff; padding:5px; border:1px solid #ccc; color:darkblue;}
+.menu ul li a:hover{background-color:darkblue; color:#fff;}
+.menu li:hover ul{display:block;}
+
+.barra_busca{width:100%; text-align:center; float:left; margin-top:10px;}
+.barra_busca input{width:490px; height:20px; border-radius:12px; padding-left:10px}
+.botao_pag{font-size:20px; padding:5px; border:1px solid #ccc; margin-right:10px;}
+
+.barra-nav{width:100%; margin-top:10px; border:1px solid #ccc; border-radius:5px; padding:10px 0; float:left; font-size:20px;}
+.barra-nav h2{color:darkorange; margin-left:10px;}
+.banner{}
+.banner div{margin:0 auto; width:1024px;}
+
+#painel-login-esq{width:47%; float:left; border:1px solid #ccc; border-radius:5px; color:darkblue; margin-bottom:10px; text-align:center; padding:10px;}
+#painel-login-dir{width:47%; float:left; border:1px solid #ccc; border-radius:5px; color:darkblue; margin-bottom:10px; text-align:center; padding:10px; margin-left:17px;}
+.painel-centro{padding:30px; margin-top:10px; color:darkblue; text-align:left; height:320px;}
+.p-info{color:red}
+
+#produto-title{width:100%; float:left; border:1px solid #ccc; border-radius:5px; color:darkblue; margin-bottom:10px; padding-bottom:5px; text-align:center;}
+#produto-image{width:60%; height:570px; float:left; border:1px solid #ccc; border-radius:5px; margin-right:10px; padding-left:24px; padding-right:24px;}
+#produto-pay{width:30%; height:570px; float:left; border:1px solid #ccc; border-radius:5px; padding-left:20px; padding-right:20px; text-align:center;}
+
+#tab-cart{ float:left; margin-top:40px; text-align:center; width:100%; border:1px solid #ccc; border-collapse:collapse;}
+#tab-cart td, th{font-size:16px; border-top:1px solid #ccc; border:1px solid #ccc;}
+#tab-cart th{font-size:20px; background-color: #f1f1f1;}
+
+.forma-pg{width:1000px; padding:12px; margin-top:10px; border:1px solid #ccc; border-radius:5px; float:left}
+.forma-pg span{font-weight:bold;}
+.div-sep{width:100%; border-bottom:1px solid #ccc; padding-bottom:10px; padding-top:10px; float:left;}

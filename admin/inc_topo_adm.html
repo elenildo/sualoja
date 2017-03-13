@@ -1,0 +1,30 @@
+<?php
+	session_start();
+	if(!isset($_SESSION["user_admin"])){
+		header("Location: login.php");
+	}
+?>
+<div class="barra_topo">
+	<div style="margin:0 auto; width:1024px; height:50px; color:#fff;">
+		<p style="float:right;">Bem-vindo, <?php echo $_SESSION["user_admin"]?></p>
+	</div>
+</div>
+
+<div class="barra_adm">
+	<div class="barra_btn">
+		<a href="index.php"><img src="img/produtos.png" title="Produtos"></a>
+	</div>
+	<div class="barra_btn">
+		<a href="clientes.php"><img src="img/clientes.png" title="Clientes"></a>
+	</div>
+	<div class="barra_btn">
+		<a href="paginas.php"><img src="img/pagina.png" title="Configurar páginas"></a>
+	</div>
+	<div class="barra_btn">
+		<a href="pedidos.php"><img src="img/vendas.png" title="Pedidos"></a>
+	</div>
+	<div class="barra_btn">
+		<a href="compras.php"><img src="img/compras.png" title="Compra de mercadorias"></a>
+	</div>
+</div>
+

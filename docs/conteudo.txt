@@ -1,0 +1,2 @@
+Aqui tem o conteúdo do email.
+Este/conteúdo/está em um arquivo de texto, mas também pode ser um arquivo html.
