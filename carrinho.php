@@ -62,7 +62,7 @@
 				 $parametros['StrRetorno'] = 'xml';
 
 				 // C?igo do Servi?, pode ser apenas um ou mais. Para mais de um apenas separe por virgula.
-				 $parametros['nCdServico'] = '40010,41106,40215';
+				 $parametros['nCdServico'] = '40010'; //'40010,41106,40215';
 
 
 				 $parametros = http_build_query($parametros);
@@ -149,6 +149,8 @@
 		<?php
 				mysqli_close($conexao);
 				
+				// var_dump($dados);
+
 				if($dados != null){
 					$mgspn = "Escolha uma forma de envio";
 					$servicos = array('41106'=>'PAC','40010'=>'Sedex','40215'=>'Sedex 10');
@@ -158,8 +160,8 @@
 							echo "<tr>";
 							echo "<td align='right'>".$servicos["$linhas->Codigo"]." <input type='radio' name='envio' id='envio' value='{$linhas->Valor}' onChange='return pega_valor(value,$total)'></td><td> R$ {$linhas->Valor} </td><td>{$linhas->PrazoEntrega} dias</td>";
 							echo "</tr>";
-						}//else 
-							//echo $linhas->MsgErro."<br>";
+						}else 
+							echo $linhas->MsgErro."<br>";
 					}
 					echo "</table>";
 				}
